@@ -1,0 +1,76 @@
+<!-- De esta manera se comenta en html.
+Se puede utilizar enter dentro del comentario.-->
+
+<!-- Esta etiqueta encierra TODO el contenido de nuestro archivo HTML, con esta se debe empezar -->
+<html></html>
+
+<!-- Lista desordenada no enumera los items-->
+<ul>
+	<li>Un elemento</li>
+	<li>Segundo elemento</li>
+	<li>Tercer elemento</li>
+	<li>Cuarto elemento</li>
+</ul>
+
+<!-- Esta es una lista ordenada que si enumera los items.-->
+<ol>
+    <li>Un elemento</li>
+    <li>Segundo elemento</li>
+	<li>Tercer elemento</li>
+	<li>Cuarto elemento</li>
+</ol>
+
+<!-- Esta etiqueta permite agregar enlaces (al hacer click y lleva a otra pagina.) -->
+<a href="www.google.com">Haga click para ir a Google.</a>
+
+<!-- Esta etiqueta permite agregar un parrafo de texto en el HTML -->
+<p>Todo el texto aqui escrtio estara anidado en la etiqueta, la cual al final agregara un espacio entre otros contenidos.</p>
+
+<!-- Esta permite agregar texto en el HTML. -->
+<span>El texto de esta etiqueta no tendra espacio entre otros elementos a menos que se lo indiquemos.</span>
+
+<!-- Esta etiqueta separara por "secciones" el contenido de nuestro sitio.-->
+<div>Dentro de esta etiqueta puede estar cualquier tipo de etiqueta, ya sea un boton, enlaces, lista o incluso otro div.</div>
+
+<!-- Esta etiqueta mantiene la configuracion de nuestro archivo HTML, no se deberian agregar etiquetas visuales como p.
+Como lo son la etiqueta meta para la codificacion del texto, lista de estilos CSS, archivos javascript, descripcion de nuestro documento, titulo para el documento que se visualizara en la barra de navegacion del navegador, iconos para el sitio, palabras clave para ser indexados por google y otros. -->
+<head>
+	<title>Titulo de sitio</title>
+	<meta description="Descripcion del sitio web.">
+	<meta author="Daniel Vivas">
+    <link rel="icon" type="image/png" href="icono.png">
+</head>
+
+<!-- Esta etuqueta permite agregar hojas de estilo a nuestro documento, la ubicacion de los archivos que se agregan, se navegan practicamente como un "cd" en la terminal Esto deberia ir dentro de la etiqueta head.-->
+<link rel="stylesheet" type="text/css" href="hojaDeEstilos.css">
+
+<!-- Esta etiqueta tendra dentro contenido CSS, generalmente no se usa porque haria la carga de la pagina muy lenta. Esto deberia ir dentro la etiqueta head.-->
+<style type="text/css">
+	body {
+		border:1px solid red;
+	}
+	div {
+		color:blue;
+	}
+</style>
+
+<!-- Esta etiqueta tendra en su interior todo el contenido en etiquetas como p, ul, li, span, h1...h5 y cualquier otra etiqueta HTML que representa contenido visual. -->
+<body></body>
+
+<!-- Esta etiqueta realiza un salto de linea entre el contenido que se encuentre; no es tan comun por que puede altera al responsive design. -->
+<br>
+
+<!-- Esta etiqueta agregara una linea de separacion en el contenido html que tengamos. -->
+<hr>
+
+<!-- Esta etiqueta agreta texto, pero el texto tiene relevancia semantica dentro del sitio web. La revelancia es semejante al numeroo que acompana la letra h, siendo 1 el mas relevante y 6 el menos relevante. -->
+<h1></h1><h6></h6>
+
+<!-- Esta etiqueta funciona como un div, segmenta por secciones el contenido de nuestro sitio web. -->
+<section></section>
+
+<!-- Esta etiqueta funciona como un div, segmenta por secciones, pero es mas comun verla anidada separando secciones dentro de un div o un section. -->
+<article></article>
+
+<!-- Esta etiqueta segmentara el contenido dentro del sitio web, se debe tener en cuenta que esta etiqueta no tiene mucha revelancia, en ella podrian ir cosas que no tiene tanta consistencia con el resto del contenido del archivo. -->
+<aside></aside>
