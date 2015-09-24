@@ -1,0 +1,64 @@
+/*
+Esto es un comentario en CSS.
+*/
+h1 {
+	color: red;
+	text-align: center;
+    font-weight: bold;
+}
+
+/*
+Pseudo clases: hover, focus, visited.
+Hover hara cambios sobre la clase, counde el mouse este sobre el elemento.
+Ejemplo= .link:hover;
+Focus hara que en el momento en que se esta haciendo la accion el elemento tenga un cambio especifico.
+Visited hara cambios en enlaces cuando ya han sido visitados previamente.
+*/
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lista {
+	border: 10px solid blue;
+	padding: 20px 40px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#foto {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 205px;
+    height: 205px;
+    border-width: 15px;
+    border-style: outset;
+    border-color: green;
+}
+
+.trabajo {
+	padding: 0 0 0 20px;
+}
+
+span {
+	color: blue;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+span:hover {
+	color: red;
+	font-size: 20px;
+}
+
+article {
+	display: inline-block;
+	border: 3px dashed black;
+	margin: 20px 350px 0px; 
+}
+
+.bloque {
+	display: inline-block;
+}
